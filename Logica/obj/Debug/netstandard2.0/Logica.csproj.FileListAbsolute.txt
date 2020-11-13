@@ -53,3 +53,17 @@ C:\Users\jhean\OneDrive\Documentos\2020-2\BAJO WEB\SEGUNDO CORTE\ParcialWebSC\Lo
 C:\Users\jhean\OneDrive\Documentos\2020-2\BAJO WEB\SEGUNDO CORTE\ParcialWebSC\Logica\obj\Debug\netstandard2.0\Logica.csproj.CopyComplete
 C:\Users\jhean\OneDrive\Documentos\2020-2\BAJO WEB\SEGUNDO CORTE\ParcialWebSC\Logica\obj\Debug\netstandard2.0\Logica.dll
 C:\Users\jhean\OneDrive\Documentos\2020-2\BAJO WEB\SEGUNDO CORTE\ParcialWebSC\Logica\obj\Debug\netstandard2.0\Logica.pdb
+C:\Users\developer\Documents\WebProjects\parcialWebII\Logica\bin\Debug\netstandard2.0\Logica.deps.json
+C:\Users\developer\Documents\WebProjects\parcialWebII\Logica\bin\Debug\netstandard2.0\Logica.dll
+C:\Users\developer\Documents\WebProjects\parcialWebII\Logica\bin\Debug\netstandard2.0\Logica.pdb
+C:\Users\developer\Documents\WebProjects\parcialWebII\Logica\bin\Debug\netstandard2.0\Datos.dll
+C:\Users\developer\Documents\WebProjects\parcialWebII\Logica\bin\Debug\netstandard2.0\Entity.dll
+C:\Users\developer\Documents\WebProjects\parcialWebII\Logica\bin\Debug\netstandard2.0\Datos.pdb
+C:\Users\developer\Documents\WebProjects\parcialWebII\Logica\bin\Debug\netstandard2.0\Entity.pdb
+C:\Users\developer\Documents\WebProjects\parcialWebII\Logica\obj\Debug\netstandard2.0\Logica.csprojAssemblyReference.cache
+C:\Users\developer\Documents\WebProjects\parcialWebII\Logica\obj\Debug\netstandard2.0\Logica.AssemblyInfoInputs.cache
+C:\Users\developer\Documents\WebProjects\parcialWebII\Logica\obj\Debug\netstandard2.0\Logica.AssemblyInfo.cs
+C:\Users\developer\Documents\WebProjects\parcialWebII\Logica\obj\Debug\netstandard2.0\Logica.csproj.CoreCompileInputs.cache
+C:\Users\developer\Documents\WebProjects\parcialWebII\Logica\obj\Debug\netstandard2.0\Logica.csproj.CopyComplete
+C:\Users\developer\Documents\WebProjects\parcialWebII\Logica\obj\Debug\netstandard2.0\Logica.dll
+C:\Users\developer\Documents\WebProjects\parcialWebII\Logica\obj\Debug\netstandard2.0\Logica.pdb

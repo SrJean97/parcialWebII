@@ -2,33 +2,33 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-//using Entity;
-//using Logica;
+using Entity;
+using Logica;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
-using PrimerParcial.Models;
+using SegundoParcial.Models;
 
 
-namespace PrimerParcial.Controllers
+namespace SegundoParcial.Controllers
 {
     [Route("api/persona")]
     [ApiController]
-    public class PersonaController: ControllerBase
+    public class PersonaController : ControllerBase
     {
-        //private readonly PersonaService _psnService;
+        private readonly PersonaService PS;
         public IConfiguration Configuration { get; }
         public PersonaController(IConfiguration configuration)
         {
             Configuration = configuration;
             string connectionString = Configuration["ConnectionStrings:DefaultConnection"];
-            //_psnService = new PersonaService(connectionString);
+            //PS = new PersonaService(connectionString);
         }
         // GET: api/Persona
         /*[HttpGet]
         public IEnumerable<PersonaViewModel> Gets()
         {
-            var psns = _psnService.ConsultarTodos().Select(p=> new PersonaViewModel(p));
+            var psns = PS.ConsultarTodos().Select(p=> new PersonaViewModel(p));
             return psns;
         }
 
@@ -37,7 +37,7 @@ namespace PrimerParcial.Controllers
         public ActionResult<PersonaViewModel> Post(PersonaInputModel psnInput)
         {
             Persona psn = MapearPersona(psnInput);
-            var response = _psnService.Guardar(psn);
+            var response = PS.Guardar(psn);
             if (response.Error)
             {
                 return BadRequest(response.Mensaje);

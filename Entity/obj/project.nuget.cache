@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "5pZOok5Zci9bDwuQt6BpR1smeH+/1Dgx3NxuL83L/6JJL9MDOSjFStTFYoyZSgoZ5yj4XiJGHUyt5mwNDbyMYQ==",
+  "dgSpecHash": "MY9d1se+dfaERjkEaAC7rFtPYQZJfKUwi3R65Hix+8olor+meqw0oaWUaFYIZpbL3i0qxzatxqLogvrrKNLb/g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jhean\\OneDrive\\Documentos\\2020-2\\BAJO WEB\\SEGUNDO CORTE\\ParcialWebSC\\Entity\\Entity.csproj",
+  "projectFilePath": "C:\\Users\\developer\\Documents\\WebProjects\\parcialWebII\\Entity\\Entity.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\jhean\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\jhean\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\developer\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

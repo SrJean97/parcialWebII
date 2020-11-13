@@ -1,0 +1,9 @@
+C:\Users\developer\Documents\WebProjects\parcialWebII\Entity\bin\Debug\netstandard2.1\Entity.deps.json
+C:\Users\developer\Documents\WebProjects\parcialWebII\Entity\bin\Debug\netstandard2.1\Entity.dll
+C:\Users\developer\Documents\WebProjects\parcialWebII\Entity\bin\Debug\netstandard2.1\Entity.pdb
+C:\Users\developer\Documents\WebProjects\parcialWebII\Entity\obj\Debug\netstandard2.1\Entity.csprojAssemblyReference.cache
+C:\Users\developer\Documents\WebProjects\parcialWebII\Entity\obj\Debug\netstandard2.1\Entity.AssemblyInfoInputs.cache
+C:\Users\developer\Documents\WebProjects\parcialWebII\Entity\obj\Debug\netstandard2.1\Entity.AssemblyInfo.cs
+C:\Users\developer\Documents\WebProjects\parcialWebII\Entity\obj\Debug\netstandard2.1\Entity.csproj.CoreCompileInputs.cache
+C:\Users\developer\Documents\WebProjects\parcialWebII\Entity\obj\Debug\netstandard2.1\Entity.dll
+C:\Users\developer\Documents\WebProjects\parcialWebII\Entity\obj\Debug\netstandard2.1\Entity.pdb
