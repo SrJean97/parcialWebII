@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "wm0xycuOtabAn4Sdfa3VL1xdu8x3FUCdHnavHFN2G8w3nYAr7f6i8QR+LEGaSmMr7Cq45pouOpsPQct4Ifd7yQ==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\developer\\Documents\\WebProjects\\Parcial\\Entidad\\Entidad.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\developer\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

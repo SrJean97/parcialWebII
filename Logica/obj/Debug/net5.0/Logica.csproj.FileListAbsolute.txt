@@ -1,0 +1,17 @@
+c:\Users\developer\Documents\WebProjects\Parcial\Logica\bin\Debug\net5.0\Logica.deps.json
+c:\Users\developer\Documents\WebProjects\Parcial\Logica\bin\Debug\net5.0\Logica.dll
+c:\Users\developer\Documents\WebProjects\Parcial\Logica\bin\Debug\net5.0\ref\Logica.dll
+c:\Users\developer\Documents\WebProjects\Parcial\Logica\bin\Debug\net5.0\Logica.pdb
+c:\Users\developer\Documents\WebProjects\Parcial\Logica\bin\Debug\net5.0\Datos.dll
+c:\Users\developer\Documents\WebProjects\Parcial\Logica\bin\Debug\net5.0\Entidad.dll
+c:\Users\developer\Documents\WebProjects\Parcial\Logica\bin\Debug\net5.0\Datos.pdb
+c:\Users\developer\Documents\WebProjects\Parcial\Logica\bin\Debug\net5.0\Entidad.pdb
+c:\Users\developer\Documents\WebProjects\Parcial\Logica\obj\Debug\net5.0\Logica.csprojAssemblyReference.cache
+c:\Users\developer\Documents\WebProjects\Parcial\Logica\obj\Debug\net5.0\Logica.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\developer\Documents\WebProjects\Parcial\Logica\obj\Debug\net5.0\Logica.AssemblyInfoInputs.cache
+c:\Users\developer\Documents\WebProjects\Parcial\Logica\obj\Debug\net5.0\Logica.AssemblyInfo.cs
+c:\Users\developer\Documents\WebProjects\Parcial\Logica\obj\Debug\net5.0\Logica.csproj.CoreCompileInputs.cache
+c:\Users\developer\Documents\WebProjects\Parcial\Logica\obj\Debug\net5.0\Logica.csproj.CopyComplete
+c:\Users\developer\Documents\WebProjects\Parcial\Logica\obj\Debug\net5.0\Logica.dll
+c:\Users\developer\Documents\WebProjects\Parcial\Logica\obj\Debug\net5.0\ref\Logica.dll
+c:\Users\developer\Documents\WebProjects\Parcial\Logica\obj\Debug\net5.0\Logica.pdb

@@ -1,0 +1,15 @@
+c:\Users\developer\Documents\WebProjects\Parcial\Datos\bin\Debug\net5.0\Datos.deps.json
+c:\Users\developer\Documents\WebProjects\Parcial\Datos\bin\Debug\net5.0\Datos.dll
+c:\Users\developer\Documents\WebProjects\Parcial\Datos\bin\Debug\net5.0\ref\Datos.dll
+c:\Users\developer\Documents\WebProjects\Parcial\Datos\bin\Debug\net5.0\Datos.pdb
+c:\Users\developer\Documents\WebProjects\Parcial\Datos\bin\Debug\net5.0\Entidad.dll
+c:\Users\developer\Documents\WebProjects\Parcial\Datos\bin\Debug\net5.0\Entidad.pdb
+c:\Users\developer\Documents\WebProjects\Parcial\Datos\obj\Debug\net5.0\Datos.csprojAssemblyReference.cache
+c:\Users\developer\Documents\WebProjects\Parcial\Datos\obj\Debug\net5.0\Datos.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\developer\Documents\WebProjects\Parcial\Datos\obj\Debug\net5.0\Datos.AssemblyInfoInputs.cache
+c:\Users\developer\Documents\WebProjects\Parcial\Datos\obj\Debug\net5.0\Datos.AssemblyInfo.cs
+c:\Users\developer\Documents\WebProjects\Parcial\Datos\obj\Debug\net5.0\Datos.csproj.CoreCompileInputs.cache
+c:\Users\developer\Documents\WebProjects\Parcial\Datos\obj\Debug\net5.0\Datos.csproj.CopyComplete
+c:\Users\developer\Documents\WebProjects\Parcial\Datos\obj\Debug\net5.0\Datos.dll
+c:\Users\developer\Documents\WebProjects\Parcial\Datos\obj\Debug\net5.0\ref\Datos.dll
+c:\Users\developer\Documents\WebProjects\Parcial\Datos\obj\Debug\net5.0\Datos.pdb
