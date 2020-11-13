@@ -12,6 +12,7 @@ import { PersonaConsultaComponent } from './segundoParcial/persona-consulta/pers
 import { VacunaConsultaComponent } from './segundoParcial/vacuna-consulta/vacuna-consulta.component';
 import { VacunaRegistroComponent } from './segundoParcial/vacuna-registro/vacuna-registro.component';
 import { AlertModalComponent } from './@base/alert-modal/alert-modal.component';
+import { FooterComponent } from './footer/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { AlertModalComponent } from './@base/alert-modal/alert-modal.component';
     PersonaConsultaComponent,
     VacunaConsultaComponent,
     VacunaRegistroComponent,
-    AlertModalComponent
+    AlertModalComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),

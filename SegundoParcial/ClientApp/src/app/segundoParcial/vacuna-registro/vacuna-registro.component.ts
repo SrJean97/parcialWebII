@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { VacunaService } from 'src/app/services/vacuna.service';
 import { Vacuna } from '../models/vacuna';
 
 @Component({

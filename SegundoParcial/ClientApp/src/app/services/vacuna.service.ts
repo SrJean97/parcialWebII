@@ -41,14 +41,14 @@ export class VacunaService {
     const url = `${this.baseUrl + 'api/PersonaControllers'}/${id}`;
     return this.http.get<Vacuna>(url, httpOptions)
       .pipe(
-        catchError(this.HandleErrorService.handleError<Persona>('Buscar Persona', null))
+        catchError(this.HandleErrorService.handleError<Vacuna>('Buscar Vacuna', null))
       );
   }
-  post(persona: Persona): Observable<Persona> {
-    return this.http.post<Persona>(this.baseUrl + 'api/PersonaControllers', persona)
+  post(vacuna: Vacuna): Observable<Vacuna> {
+    return this.http.post<Vacuna>(this.baseUrl + 'api/VacunaControllers', vacuna)
       .pipe(
         tap(_ => this.HandleErrorService.log('datos enviados')),
-        catchError(this.HandleErrorService.handleError<Persona>('Registrar Persona', null))
+        catchError(this.HandleErrorService.handleError<Vacuna>('Registrar Vacuna', null))
       );
 
   }
