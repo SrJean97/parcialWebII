@@ -1,8 +1,8 @@
-using Entity;
+//using Entity;
 
 namespace PrimerParcial.Models
 {
-    public class PersonaInputModel
+    /*public class PersonaInputModel
     {
         public string Identificacion{ get; set; }
     }
@@ -18,6 +18,6 @@ namespace PrimerParcial.Models
             Identificacion = psn.Identificacion;
         }
         public double ValorTotalAPagar { get; set; }
-    }
+    }*/
 
 }

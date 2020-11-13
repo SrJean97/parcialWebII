@@ -2,8 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Entity;
-using Logica;
+//using Entity;
+//using Logica;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
@@ -16,16 +16,16 @@ namespace PrimerParcial.Controllers
     [ApiController]
     public class PersonaController: ControllerBase
     {
-        private readonly PersonaService _psnService;
+        //private readonly PersonaService _psnService;
         public IConfiguration Configuration { get; }
         public PersonaController(IConfiguration configuration)
         {
             Configuration = configuration;
             string connectionString = Configuration["ConnectionStrings:DefaultConnection"];
-            _psnService = new PersonaService(connectionString);
+            //_psnService = new PersonaService(connectionString);
         }
         // GET: api/Persona
-        [HttpGet]
+        /*[HttpGet]
         public IEnumerable<PersonaViewModel> Gets()
         {
             var psns = _psnService.ConsultarTodos().Select(p=> new PersonaViewModel(p));
@@ -52,7 +52,7 @@ namespace PrimerParcial.Controllers
                 Identificacion = psnInput.Identificacion
             };
             return psn;
-        }
+        }*/
     }
 
 }
