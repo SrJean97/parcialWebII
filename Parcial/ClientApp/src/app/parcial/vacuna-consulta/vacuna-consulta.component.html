@@ -1,0 +1,28 @@
+<div class="row">
+    <div class="col-6">
+        <input [(ngModel)]="searchText" type="text" class="formcontrol" placeholder="Type to filter">
+    </div>
+</div>
+<hr>
+<table class="table table-striped" *ngIf='vacunas && vacunas.length'>
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Tipo</th>
+            <th scope="col">Edad </th>
+            <th scope="col">Aplicado</th>
+            <th scope="col">Persona</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let vacuna of vacunas index as i ">
+            <th scope="row">{{ i + 1 }}</th>
+            <td>{{ vacuna.Tipo} </td>
+            <td>{{ vacuna.Edad }}</td>
+            <td>{{ vacuna.Aplicado }}</td>
+            <td>{{ vacuna.persona.Identificacion }}</td>
+            
+        </tr>
+    </tbody>
+</table>
