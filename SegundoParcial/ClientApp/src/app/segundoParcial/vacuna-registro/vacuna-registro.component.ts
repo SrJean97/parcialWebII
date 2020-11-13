@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Vacuna } from '../models/vacuna';
 
 @Component({
   selector: 'app-vacuna-registro',
@@ -7,10 +8,25 @@ import { Component, OnInit } from '@angular/core';
 })
 export class VacunaRegistroComponent implements OnInit {
 
-  
-  constructor() { }
+  vacuna: Vacuna;
+  constructor(private vacunaService : VacunaService) { }
 
   ngOnInit() {
+    this.vacuna = new Vacuna;
+  }
+
+  add(){
+    this.vacunaService.post(this.vacuna).subscribe(p => {
+
+      if (p != null) {
+      
+      alert('Vacuna Registrada exitosamente!');
+      
+      this.vacuna = p;
+      
+      }
+      
+      });
   }
 
 }

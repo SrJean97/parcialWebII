@@ -10,3 +10,15 @@ C:\Users\developer\Documents\WebProjects\parcialWebII\Datos\obj\Debug\netstandar
 C:\Users\developer\Documents\WebProjects\parcialWebII\Datos\obj\Debug\netstandard2.1\Datos.csproj.CopyComplete
 C:\Users\developer\Documents\WebProjects\parcialWebII\Datos\obj\Debug\netstandard2.1\Datos.dll
 C:\Users\developer\Documents\WebProjects\parcialWebII\Datos\obj\Debug\netstandard2.1\Datos.pdb
+C:\Users\jhean\OneDrive\Documentos\2020-2\BAJO WEB\SEGUNDO CORTE\ParcialWebSC\Datos\bin\Debug\netstandard2.1\Datos.deps.json
+C:\Users\jhean\OneDrive\Documentos\2020-2\BAJO WEB\SEGUNDO CORTE\ParcialWebSC\Datos\bin\Debug\netstandard2.1\Datos.dll
+C:\Users\jhean\OneDrive\Documentos\2020-2\BAJO WEB\SEGUNDO CORTE\ParcialWebSC\Datos\bin\Debug\netstandard2.1\Datos.pdb
+C:\Users\jhean\OneDrive\Documentos\2020-2\BAJO WEB\SEGUNDO CORTE\ParcialWebSC\Datos\bin\Debug\netstandard2.1\Entity.dll
+C:\Users\jhean\OneDrive\Documentos\2020-2\BAJO WEB\SEGUNDO CORTE\ParcialWebSC\Datos\bin\Debug\netstandard2.1\Entity.pdb
+C:\Users\jhean\OneDrive\Documentos\2020-2\BAJO WEB\SEGUNDO CORTE\ParcialWebSC\Datos\obj\Debug\netstandard2.1\Datos.csprojAssemblyReference.cache
+C:\Users\jhean\OneDrive\Documentos\2020-2\BAJO WEB\SEGUNDO CORTE\ParcialWebSC\Datos\obj\Debug\netstandard2.1\Datos.AssemblyInfoInputs.cache
+C:\Users\jhean\OneDrive\Documentos\2020-2\BAJO WEB\SEGUNDO CORTE\ParcialWebSC\Datos\obj\Debug\netstandard2.1\Datos.AssemblyInfo.cs
+C:\Users\jhean\OneDrive\Documentos\2020-2\BAJO WEB\SEGUNDO CORTE\ParcialWebSC\Datos\obj\Debug\netstandard2.1\Datos.csproj.CoreCompileInputs.cache
+C:\Users\jhean\OneDrive\Documentos\2020-2\BAJO WEB\SEGUNDO CORTE\ParcialWebSC\Datos\obj\Debug\netstandard2.1\Datos.csproj.CopyComplete
+C:\Users\jhean\OneDrive\Documentos\2020-2\BAJO WEB\SEGUNDO CORTE\ParcialWebSC\Datos\obj\Debug\netstandard2.1\Datos.dll
+C:\Users\jhean\OneDrive\Documentos\2020-2\BAJO WEB\SEGUNDO CORTE\ParcialWebSC\Datos\obj\Debug\netstandard2.1\Datos.pdb
