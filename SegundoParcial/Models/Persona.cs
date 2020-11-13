@@ -1,7 +1,8 @@
-//using Entity;
+using Entity;
 using System;
+using System.Collections.Generic;
 
-namespace SegundoParcial.Model
+namespace SegundoParcial.Models
 {
     public class PersonaInput
     {
@@ -18,14 +19,21 @@ namespace SegundoParcial.Model
     public class PersonaView : PersonaInput
     {
         public PersonaView()
-        {  
-        }
-        /*public PersonaView(Persona psn)
         {
-            //Identificacion = psn.Identificacion;
-        }*/
 
-        //public double ValorTotalAPagar { get; set; }
+        }
+        
+        public PersonaView(Persona p, List<Vacuna> v)
+        {
+            identificacion = p.Id;
+            tipoDocumento = p.Tipo;
+            nombreEstudiante = p.Nombre;
+            fechaNacimiento = p.Nacimiento;
+            nombreInstitucion = p.Institucion;
+            acudiente = p.Acudiente;
+            vacunas = v;
+        }
+
     }
 
 }

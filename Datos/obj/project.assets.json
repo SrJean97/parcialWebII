@@ -7174,19 +7174,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jhean\\.nuget\\packages\\": {}
+    "C:\\Users\\developer\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jhean\\OneDrive\\Documentos\\2020-2\\BAJO WEB\\SEGUNDO CORTE\\ParcialWebSC\\Datos\\Datos.csproj",
+      "projectUniqueName": "C:\\Users\\developer\\Documents\\WebProjects\\parcialWebII\\Datos\\Datos.csproj",
       "projectName": "Datos",
-      "projectPath": "C:\\Users\\jhean\\OneDrive\\Documentos\\2020-2\\BAJO WEB\\SEGUNDO CORTE\\ParcialWebSC\\Datos\\Datos.csproj",
-      "packagesPath": "C:\\Users\\jhean\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jhean\\OneDrive\\Documentos\\2020-2\\BAJO WEB\\SEGUNDO CORTE\\ParcialWebSC\\Datos\\obj\\",
+      "projectPath": "C:\\Users\\developer\\Documents\\WebProjects\\parcialWebII\\Datos\\Datos.csproj",
+      "packagesPath": "C:\\Users\\developer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\developer\\Documents\\WebProjects\\parcialWebII\\Datos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jhean\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\developer\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7198,9 +7198,10 @@
       },
       "frameworks": {
         "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "C:\\Users\\jhean\\OneDrive\\Documentos\\2020-2\\BAJO WEB\\SEGUNDO CORTE\\ParcialWebSC\\Entity\\Entity.csproj": {
-              "projectPath": "C:\\Users\\jhean\\OneDrive\\Documentos\\2020-2\\BAJO WEB\\SEGUNDO CORTE\\ParcialWebSC\\Entity\\Entity.csproj"
+            "C:\\Users\\developer\\Documents\\WebProjects\\parcialWebII\\Entity\\Entity.csproj": {
+              "projectPath": "C:\\Users\\developer\\Documents\\WebProjects\\parcialWebII\\Entity\\Entity.csproj"
             }
           }
         }
@@ -7213,6 +7214,7 @@
     },
     "frameworks": {
       "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
@@ -7242,7 +7244,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-rc.1.20452.10\\RuntimeIdentifierGraph.json"
       }
     }
   }
