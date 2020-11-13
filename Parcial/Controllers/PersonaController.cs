@@ -37,6 +37,14 @@ namespace SegundoParcial.Controllers
             return psns;
         }
 
+        // GET: api/Persona/id
+        [HttpGet("{id}")]
+        public ActionResult<PersonaView> Get(string id)
+        {
+            //var psns = PS.ConsultarTodos().Select(p=> new PersonaView(p));
+            return new PersonaView(PS.Consultar(id), VS.ConsultarByPsn(id));
+        }
+
         // POST: api/Persona
         [HttpPost]
         public ActionResult<PersonaView> Post(PersonaInput psnInput)

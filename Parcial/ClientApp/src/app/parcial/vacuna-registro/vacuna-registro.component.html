@@ -1,7 +1,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-6 offset-md-3">
-            <h2>Registro de Personas</h2>
+            <h2>Registro de vacuna</h2>
             <form [formGroup]="formGroup">
 
                 <div class="form-group">
@@ -10,9 +10,11 @@
                     class="form-control" />
                 </div>
 
-                <app-persona-registro *ngIf="!key"></app-persona-registro>
+                <div class="form-group" *ngIf="rcrS.show">
+                    <label for="id" >{{rcrS.psn.nombreEstudiante}}</label>
+                </div>
 
-                <div class="regvac" *ngIf="key">
+                <div class="regvac" *ngIf="rcrS.show">
                     <p>Registro vacuna</p>
                     
                     <div class="form-group">
@@ -36,17 +38,21 @@
                         class="form-control" />
                     </div>
 
-                </div>
+                    <div class="text-center">
+                        <button class="btn btn-primary mr-1" 
+                         (click)="onSubmit()" 
+                        [disabled]="formGroup.invalid || !rcrS.show">Registrar
+                        </button>
+                        <button class="btn btn-secondary" type="reset">Cancel</button>
+                    </div>
 
-                <div class="text-center">
-                    <button class="btn btn-primary mr-1" 
-                     (click)="onSubmit()" 
-                    [disabled]="formGroup.invalid">Registrar
-                    </button>
-                    <button class="btn btn-secondary" type="reset">Cancel</button>
-                </div>
+                </div>                
                     
             </form>
+        </div>                
+                
+        <div class="regper">            
+            <app-persona-registro *ngIf="!rcrS.show"></app-persona-registro>
         </div>
     </div>
 </div>

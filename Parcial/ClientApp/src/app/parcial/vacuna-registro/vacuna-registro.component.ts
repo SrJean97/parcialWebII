@@ -6,6 +6,7 @@ import { NgbDate, NgbCalendar, NgbDateParserFormatter, NgbModal} from '@ng-boots
 import { AlertModalComponent } from 'src/app/@base/alert-modal/alert-modal.component';
 import { PersonaService } from 'src/app/services/persona.service';
 import { Persona } from '../models/persona';
+import { RecordService } from 'src/app/services/record.service';
 
 @Component({
   selector: 'app-vacuna-registro',
@@ -15,13 +16,11 @@ import { Persona } from '../models/persona';
 export class VacunaRegistroComponent implements OnInit {
 
   id : string;
-  key = false;
-  psn: Persona = null;
 
   formGroup: FormGroup;
   vacuna: Vacuna;
   constructor(private vacunaService : VacunaService, private formBuilder: FormBuilder,
-    private modalService: NgbModal, private personaService: PersonaService) { this.buildForm(); }
+    private modalService: NgbModal, private personaService: PersonaService, private rcrS:RecordService) { this.buildForm(); }
 
   ngOnInit() {
     this.vacuna = new Vacuna;
@@ -40,21 +39,20 @@ export class VacunaRegistroComponent implements OnInit {
     if(id!=""){
       this.personaService.getId(id).subscribe(p => {
         if (p != null) {
-          const messageBox = this.modalService.open(AlertModalComponent)
-          messageBox.componentInstance.title = "Resultado Operación";
-          messageBox.componentInstance.message = 'Persona Encontrada, puede asignar vacunas!!';
-          this.key = true;
-          this.psn = p;
+          
+          
+          this.rcrS.show = true;
+          this.rcrS.psn = p;
         }
         else{
-         this.key = false;
-         this.psn = null;
+         this.rcrS.show = false;
+         this.rcrS.psn = null;
         }
       });
     }
     else{
-      this.key = false;
-      this.psn = null;
+      this.rcrS.show = false;
+      this.rcrS.psn = null;
     }
 
   }
@@ -89,20 +87,19 @@ export class VacunaRegistroComponent implements OnInit {
 
   add(){
     this.vacuna = this.formGroup.value;
-    //this.vacuna.persona = this.psn == null ? this.modalService.. : this.psn;
-    this.vacunaService.post(this.vacuna).subscribe(p => {
-
-      
-
-      if (p != null) {
-      
-      alert('Vacuna Registrada exitosamente!');
-      
-      this.vacuna = p;
-      
+    this.vacuna.persona = this.rcrS.psn;
+    this.vacunaService.post(this.vacuna).subscribe(
+      p => {
+        const messageBox = this.modalService.open(AlertModalComponent)
+        messageBox.componentInstance.title = "Resultado Operación";
+        messageBox.componentInstance.message = 'Se ha registrado la vacuna!!';      
+        //this.vacuna = p;      
+      },
+      error => {
+        console.log(error);
       }
       
-      });
+    );
   }
 
 }

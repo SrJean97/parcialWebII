@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { PersonaService } from 'src/app/services/persona.service';
 import { Persona } from '../models/persona';
 import { FormGroup, FormBuilder, Validators, AbstractControl } from '@angular/forms';
+import { RecordService } from 'src/app/services/record.service';
 
 @Component({
   selector: 'app-persona-registro',
@@ -12,7 +13,7 @@ export class PersonaRegistroComponent implements OnInit {
 
   formGroup: FormGroup;
   persona: Persona;
-  constructor(private personaService : PersonaService, private formBuilder: FormBuilder) { 
+  constructor(private personaService : PersonaService, private formBuilder: FormBuilder, private rcrS:RecordService) { 
     this.buildForm();
   }
 
@@ -56,7 +57,8 @@ export class PersonaRegistroComponent implements OnInit {
       if (p != null) {
       
       alert('Persona Registrada exitosamente!');
-      
+      this.rcrS.show = true;
+      this.rcrS.psn = this.persona;
       this.persona = p;
       
       }

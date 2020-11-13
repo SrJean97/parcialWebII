@@ -10,8 +10,7 @@ export class ConsultaEstudiantePipe implements PipeTransform {
     transform(vacuna: Vacuna[], searchText: string): any {
       if (searchText == null) return vacuna;
           return vacuna.filter(p =>
-            p.persona.identificacion.indexOf(searchText.toLowerCase())
-          );
+            p.persona.identificacion.indexOf(searchText.toLowerCase()) !== -1 );
     }
   
 
