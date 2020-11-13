@@ -1,3 +1,5 @@
+import { Vacuna } from "./vacuna";
+
 export class Persona {
     identificacion : string;
     tipoDocumento: string;
