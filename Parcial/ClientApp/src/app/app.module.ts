@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule  } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 
@@ -15,6 +15,9 @@ import { PersonaConsultaComponent } from './parcial/persona-consulta/persona-con
 import { VacunaConsultaComponent } from './parcial/vacuna-consulta/vacuna-consulta.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AlertModalComponent } from './@base/alert-modal/alert-modal.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ConsultaEstudiantePipe } from './pipe/consulta-estudiante.pipe';
+import { PersonaService } from './services/persona.service';
 
 @NgModule({
   declarations: [
@@ -27,20 +30,23 @@ import { AlertModalComponent } from './@base/alert-modal/alert-modal.component';
     VacunaRegistroComponent,
     PersonaConsultaComponent,
     VacunaConsultaComponent,
-    AlertModalComponent
+    AlertModalComponent,
+    ConsultaEstudiantePipe
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
     HttpClientModule,
     FormsModule,
-    RouterModule.forRoot([
+    ReactiveFormsModule,
+    /*RouterModule.forRoot([
       { path: '', component: HomeComponent, pathMatch: 'full' },
       { path: 'counter', component: CounterComponent },
       { path: 'fetch-data', component: FetchDataComponent },
-    ]),
-    AppRoutingModule
+    ]),*/
+    AppRoutingModule,
+    NgbModule
   ],
-  providers: [],
+  providers: [PersonaService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

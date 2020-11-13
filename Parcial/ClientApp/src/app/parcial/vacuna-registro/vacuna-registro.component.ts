@@ -21,7 +21,7 @@ export class VacunaRegistroComponent implements OnInit {
   formGroup: FormGroup;
   vacuna: Vacuna;
   constructor(private vacunaService : VacunaService, private formBuilder: FormBuilder,
-    private modalService: NgbModal, private personaService: PersonaService) { }
+    private modalService: NgbModal, private personaService: PersonaService) { this.buildForm(); }
 
   ngOnInit() {
     this.vacuna = new Vacuna;
@@ -30,25 +30,33 @@ export class VacunaRegistroComponent implements OnInit {
       data => {
         //LLAMAR EL SERVICIO PARA BUSCAR CON DATA
         this.ConsultarPersona(data);
+        console.log(data);
       }
     );
   }
 
 
   ConsultarPersona(id:string){
-    this.personaService.getId(id).subscribe(p => {
-      if (p != null) {
-        const messageBox = this.modalService.open(AlertModalComponent)
-        messageBox.componentInstance.title = "Resultado Operación";
-        messageBox.componentInstance.message = 'Persona Encontrada, puede asignar vacunas!!';
-        this.key = true;
-        this.psn = p;
-      }
-      else{
-       this.key = false;
-       this.psn = null;
-      }
-    });
+    if(id!=""){
+      this.personaService.getId(id).subscribe(p => {
+        if (p != null) {
+          const messageBox = this.modalService.open(AlertModalComponent)
+          messageBox.componentInstance.title = "Resultado Operación";
+          messageBox.componentInstance.message = 'Persona Encontrada, puede asignar vacunas!!';
+          this.key = true;
+          this.psn = p;
+        }
+        else{
+         this.key = false;
+         this.psn = null;
+        }
+      });
+    }
+    else{
+      this.key = false;
+      this.psn = null;
+    }
+
   }
 
 

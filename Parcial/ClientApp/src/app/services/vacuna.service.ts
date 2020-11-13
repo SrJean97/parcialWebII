@@ -30,7 +30,7 @@ export class VacunaService {
     }
 
     get(): Observable<Vacuna[]> {
-      return this.http.get<Vacuna[]>(this.baseUrl + 'api/VacunaControllers')
+      return this.http.get<Vacuna[]>(this.baseUrl + 'api/vacuna')
         .pipe(
           tap(_ => this.HandleErrorService.log('datos enviados')),
           catchError(this.HandleErrorService.handleError<Vacuna[]>('Consulta Vacuna', null))
@@ -45,7 +45,7 @@ export class VacunaService {
       );
   }
   post(vacuna: Vacuna): Observable<Vacuna> {
-    return this.http.post<Vacuna>(this.baseUrl + 'api/VacunaControllers', vacuna)
+    return this.http.post<Vacuna>(this.baseUrl + 'api/vacuna', vacuna)
       .pipe(
         tap(_ => this.HandleErrorService.log('datos enviados')),
         catchError(this.HandleErrorService.handleError<Vacuna>('Registrar Vacuna', null))

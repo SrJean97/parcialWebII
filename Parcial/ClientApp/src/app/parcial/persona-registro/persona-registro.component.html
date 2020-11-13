@@ -4,37 +4,37 @@
             <h2>Registro de Personas</h2>
             <form [formGroup]="formGroup">
                 <div class="form-group">
-                    <label for="tipoIdentificacion" >Tipo Identificacion</label>
-                    <input name="tipoIdentificacion" type="text" formControlName="tipoIdentificacion"; 
+                    <label for="tipoDocumento" >Tipo Identificacion</label>
+                    <input name="tipoDocumento" type="text" formControlName="tipoDocumento" 
                     class="form-control" />
                     
                 </div>
                 <div class="form-group">
                     <label for="identificacion" >Identificacion</label>
-                    <input name="identificacion" type="text" formControlName="identificacion"; 
+                    <input name="identificacion" type="text" formControlName="identificacion" 
                     class="form-control" />
                     <div *ngIf="control.identificacion.errors" class="invalid-feedback">
-                        <div *ngIf="control.identificacion.errors.required">Se requiere el numero de cedula</div>
+                    <div *ngIf="control.identificacion.errors.required">Se requiere el numero de cedula</div>
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="nombreEstudiante" >NombreEstudiante</label>
-                    <input name="nombreEstudiante" type="text" formControlName="nombreEstudiante";
+                    <input name="nombreEstudiante" type="text" formControlName="nombreEstudiante"
                     class="form-control"/>
                 </div>
                 <div class="form-group">
                     <label for="fechaNacimiento" >FechaNacimiento</label>
-                    <input name="fechaNacimiento" type="text" formControlName="fechaNacimiento";
+                    <input name="fechaNacimiento" type="text" formControlName="fechaNacimiento"
                     class="form-control"/>
                 </div>
                 <div class="form-group">
                     <label for="nombreInstitucion" >NombreInstitucion</label>
-                    <input name="nombreInstitucion" type="text" formControlName="nombreInstitucion";
+                    <input name="nombreInstitucion" type="text" formControlName="nombreInstitucion"
                     class="form-control"/>
                 </div>
                 <div class="form-group">
                     <label for="acudiente" >acudiente</label>
-                    <input name="acudiente" type="text" formControlName="acudiente";
+                    <input name="acudiente" type="text" formControlName="acudiente"
                     class="form-control"/>
                 </div>
 

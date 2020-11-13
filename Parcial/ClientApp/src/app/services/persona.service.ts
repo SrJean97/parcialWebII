@@ -29,7 +29,7 @@ export class PersonaService {
     }
 
     get(): Observable<Persona[]> {
-      return this.http.get<Persona[]>(this.baseUrl + 'api/PersonaControllers')
+      return this.http.get<Persona[]>(this.baseUrl + 'api/persona')
         .pipe(
           tap(_ => this.HandleErrorService.log('datos enviados')),
           catchError(this.HandleErrorService.handleError<Persona[]>('Consulta Persona', null))
@@ -37,14 +37,14 @@ export class PersonaService {
     }
   /** GET persona by identificacion. Will 404 if id not found */
   getId(id: string): Observable<Persona> {
-    const url = `${this.baseUrl + 'api/PersonaControllers'}/${id}`;
+    const url = `${this.baseUrl + 'api/persona'}/${id}`;
     return this.http.get<Persona>(url, httpOptions)
       .pipe(
         catchError(this.HandleErrorService.handleError<Persona>('Buscar Persona', null))
       );
   }
   post(persona: Persona): Observable<Persona> {
-    return this.http.post<Persona>(this.baseUrl + 'api/PersonaControllers', persona)
+    return this.http.post<Persona>(this.baseUrl + 'api/persona', persona)
       .pipe(
         tap(_ => this.HandleErrorService.log('datos enviados')),
         catchError(this.HandleErrorService.handleError<Persona>('Registrar Persona', null))

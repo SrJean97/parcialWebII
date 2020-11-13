@@ -12,11 +12,12 @@ export class PersonaRegistroComponent implements OnInit {
 
   formGroup: FormGroup;
   persona: Persona;
-  constructor(private personaService : PersonaService, private formBuilder: FormBuilder) { }
+  constructor(private personaService : PersonaService, private formBuilder: FormBuilder) { 
+    this.buildForm();
+  }
 
   ngOnInit() {
     this.persona = new Persona;
-    this.buildForm();
   }
 
   private buildForm(){
