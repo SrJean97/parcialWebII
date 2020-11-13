@@ -7,11 +7,21 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { AppRoutingModule } from './app-routing.module';
+import { PersonaRegistroComponent } from './segundoParcial/persona-registro/persona-registro.component';
+import { PersonaConsultaComponent } from './segundoParcial/persona-consulta/persona-consulta.component';
+import { VacunaConsultaComponent } from './segundoParcial/vacuna-consulta/vacuna-consulta.component';
+import { VacunaRegistroComponent } from './segundoParcial/vacuna-registro/vacuna-registro.component';
+import { AlertModalComponent } from './@base/alert-modal/alert-modal.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavMenuComponent
+    NavMenuComponent,
+    PersonaRegistroComponent,
+    PersonaConsultaComponent,
+    VacunaConsultaComponent,
+    VacunaRegistroComponent,
+    AlertModalComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
