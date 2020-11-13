@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jhean\\OneDrive\\Documentos\\2020-2\\BAJO WEB\\SEGUNDO CORTE\\ParcialWebSC\\Entity\\Entity.csproj": {}
+    "C:\\Users\\developer\\Documents\\WebProjects\\parcialWebII\\Entity\\Entity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jhean\\OneDrive\\Documentos\\2020-2\\BAJO WEB\\SEGUNDO CORTE\\ParcialWebSC\\Entity\\Entity.csproj": {
+    "C:\\Users\\developer\\Documents\\WebProjects\\parcialWebII\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jhean\\OneDrive\\Documentos\\2020-2\\BAJO WEB\\SEGUNDO CORTE\\ParcialWebSC\\Entity\\Entity.csproj",
+        "projectUniqueName": "C:\\Users\\developer\\Documents\\WebProjects\\parcialWebII\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "C:\\Users\\jhean\\OneDrive\\Documentos\\2020-2\\BAJO WEB\\SEGUNDO CORTE\\ParcialWebSC\\Entity\\Entity.csproj",
-        "packagesPath": "C:\\Users\\jhean\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jhean\\OneDrive\\Documentos\\2020-2\\BAJO WEB\\SEGUNDO CORTE\\ParcialWebSC\\Entity\\obj\\",
+        "projectPath": "C:\\Users\\developer\\Documents\\WebProjects\\parcialWebII\\Entity\\Entity.csproj",
+        "packagesPath": "C:\\Users\\developer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\developer\\Documents\\WebProjects\\parcialWebII\\Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jhean\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\developer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +26,7 @@
         },
         "frameworks": {
           "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +38,7 @@
       },
       "frameworks": {
         "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
           "dependencies": {
             "System.ComponentModel.Annotations": {
               "target": "Package",
@@ -58,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-rc.1.20452.10\\RuntimeIdentifierGraph.json"
         }
       }
     }

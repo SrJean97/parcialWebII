@@ -5930,19 +5930,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jhean\\.nuget\\packages\\": {}
+    "C:\\Users\\developer\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jhean\\OneDrive\\Documentos\\2020-2\\BAJO WEB\\SEGUNDO CORTE\\ParcialWebSC\\SegundoParcial\\SegundoParcial.csproj",
+      "projectUniqueName": "C:\\Users\\developer\\Documents\\WebProjects\\parcialWebII\\SegundoParcial\\SegundoParcial.csproj",
       "projectName": "SegundoParcial",
-      "projectPath": "C:\\Users\\jhean\\OneDrive\\Documentos\\2020-2\\BAJO WEB\\SEGUNDO CORTE\\ParcialWebSC\\SegundoParcial\\SegundoParcial.csproj",
-      "packagesPath": "C:\\Users\\jhean\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jhean\\OneDrive\\Documentos\\2020-2\\BAJO WEB\\SEGUNDO CORTE\\ParcialWebSC\\SegundoParcial\\obj\\",
+      "projectPath": "C:\\Users\\developer\\Documents\\WebProjects\\parcialWebII\\SegundoParcial\\SegundoParcial.csproj",
+      "packagesPath": "C:\\Users\\developer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\developer\\Documents\\WebProjects\\parcialWebII\\SegundoParcial\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jhean\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\developer\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5954,12 +5954,13 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\jhean\\OneDrive\\Documentos\\2020-2\\BAJO WEB\\SEGUNDO CORTE\\ParcialWebSC\\Entity\\Entity.csproj": {
-              "projectPath": "C:\\Users\\jhean\\OneDrive\\Documentos\\2020-2\\BAJO WEB\\SEGUNDO CORTE\\ParcialWebSC\\Entity\\Entity.csproj"
+            "C:\\Users\\developer\\Documents\\WebProjects\\parcialWebII\\Entity\\Entity.csproj": {
+              "projectPath": "C:\\Users\\developer\\Documents\\WebProjects\\parcialWebII\\Entity\\Entity.csproj"
             },
-            "C:\\Users\\jhean\\OneDrive\\Documentos\\2020-2\\BAJO WEB\\SEGUNDO CORTE\\ParcialWebSC\\Logica\\Logica.csproj": {
-              "projectPath": "C:\\Users\\jhean\\OneDrive\\Documentos\\2020-2\\BAJO WEB\\SEGUNDO CORTE\\ParcialWebSC\\Logica\\Logica.csproj"
+            "C:\\Users\\developer\\Documents\\WebProjects\\parcialWebII\\Logica\\Logica.csproj": {
+              "projectPath": "C:\\Users\\developer\\Documents\\WebProjects\\parcialWebII\\Logica\\Logica.csproj"
             }
           }
         }
@@ -5972,6 +5973,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.AspNetCore.SpaServices": {
             "target": "Package",
@@ -6006,6 +6008,10 @@
           {
             "name": "Microsoft.AspNetCore.App.Ref",
             "version": "[3.1.2, 3.1.2]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.7, 3.1.7]"
           }
         ],
         "frameworkReferences": {
@@ -6016,7 +6022,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-rc.1.20452.10\\RuntimeIdentifierGraph.json"
       }
     }
   }
