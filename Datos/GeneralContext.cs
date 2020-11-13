@@ -7,7 +7,8 @@ namespace Datos
     {
         public GeneralContext(DbContextOptions options) : base(options) { }
 
-        public DbSet<Persona> Personas { get; set; }
-    
+        public DbSet<Persona> Personas { get; set; }    
+        public DbSet<Vacuna> Vacunas { get; set; }
+
     }  
 }

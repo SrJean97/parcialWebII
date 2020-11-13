@@ -7,4 +7,5 @@ export class Persona {
     fechaNacimiento: Date;
     nombreInstitucion: string;
     acudiente : string;
+    vacunas:Array<Vacuna>;
 }

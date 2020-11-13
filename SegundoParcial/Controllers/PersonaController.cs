@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Entity;
+using Datos;
 using Logica;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -18,26 +18,27 @@ namespace SegundoParcial.Controllers
     {
         private readonly PersonaService PS;
         public IConfiguration Configuration { get; }
-        public PersonaController(IConfiguration configuration)
+        public PersonaController(GeneralContext context)
         {
-            Configuration = configuration;
-            string connectionString = Configuration["ConnectionStrings:DefaultConnection"];
+            PS = new PersonaService(context);
+            //string connectionString = Configuration["ConnectionStrings:DefaultConnection"];
             //PS = new PersonaService(connectionString);
         }
+
         // GET: api/Persona
-        /*[HttpGet]
-        public IEnumerable<PersonaViewModel> Gets()
+        [HttpGet]
+        public IEnumerable<PersonaView> Gets()
         {
-            var psns = PS.ConsultarTodos().Select(p=> new PersonaViewModel(p));
+            //var psns = PS.ConsultarTodos().Select(p=> new PersonaView(p));
             return psns;
         }
 
         // POST: api/Persona
         [HttpPost]
-        public ActionResult<PersonaViewModel> Post(PersonaInputModel psnInput)
+        public ActionResult<PersonaView> Post(PersonaInputModel psnInput)
         {
             Persona psn = MapearPersona(psnInput);
-            var response = PS.Guardar(psn);
+            //var response = PS.Guardar(psn);
             if (response.Error)
             {
                 return BadRequest(response.Mensaje);
@@ -45,14 +46,14 @@ namespace SegundoParcial.Controllers
             return Ok(response.Persona);
         }
 
-        private Persona MapearPersona(PersonaInputModel psnInput)
+        private Persona MapearPersona(PersonaInput psnInput)
         {
             var psn = new Persona
             {
-                Identificacion = psnInput.Identificacion
+                Id = psnInput.Id
             };
             return psn;
-        }*/
+        }
     }
 
 }
