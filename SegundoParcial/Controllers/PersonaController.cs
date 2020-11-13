@@ -47,14 +47,19 @@ namespace SegundoParcial.Controllers
             {
                 return BadRequest(rta.Mensaje);
             }
-            return Ok(rta.Persona);
+            return Ok();
         }
 
-        private Persona MapearPersona(PersonaInput psnInput)
+        private Persona MapearPersona(PersonaInput p)
         {
             var psn = new Persona
             {
-                Id = psnInput.identificacion
+                Id = p.identificacion,
+                Tipo = p.tipoDocumento,
+                Nombre = p.nombreEstudiante,
+                Nacimiento = p.fechaNacimiento,
+                Institucion = p.nombreInstitucion,
+                Acudiente = p.acudiente
             };
             return psn;
         }

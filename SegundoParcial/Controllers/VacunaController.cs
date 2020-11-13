@@ -23,7 +23,17 @@ namespace SegundoParcial.Controllers
         {
             Configuration = configuration;
             string connectionString = Configuration["ConnectionStrings:DefaultConnection"];
-            //VS = new PersonaService(connectionString);
+            //VS = new VacunaService(connectionString);
         }
+
+        // GET: api/Vacuna
+        [HttpGet]
+        public IEnumerable<VacunaView> Gets()
+        {
+            //var psns = PS.ConsultarTodos().Select(p=> new VacunaView(p));
+            var psns = VS.ConsultarTodos().Select(p=> new VacunaView(p));
+            return psns;
+        }
+
     }
 }

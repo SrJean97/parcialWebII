@@ -1,10 +1,15 @@
-//using Entity;
+using Entity;
+using System;
 
 namespace SegundoParcial.Models
 {
     public class VacunaInput
     {
-        //public string Identificacion{ get; set; }
+        //public string Identificacion{ get; set; }        
+        public Persona persona { get; set; }
+        public string tipo { get; set; }
+        public virtual DateTime aplicado { get; set; }
+
     }
 
 
@@ -14,12 +19,20 @@ namespace SegundoParcial.Models
         {  
         }
 
-        /*public VacunaView(Vacuna psn)
+        public VacunaView(Vacuna v)
         {
-            //Identificacion = psn.Identificacion;
-        }*/
+            persona = v.Persona;
+            tipo = v.Tipo;
+            aplicado = v.Aplicado;
+        }
+         
+        public int edad { 
+            get
+            {
+                return DateTime.Now.Year - persona.Nacimiento.Year;
+            }
+        }
 
-        //public double ValorTotalAPagar { get; set; }
     }
 
 }

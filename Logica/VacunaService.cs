@@ -31,8 +31,7 @@ namespace Logica
             }
             catch (System.Exception)
             {
-                return new Response("Proceso fallido","No se ha podido guardar la Vacuna",null,false);
-                
+                return new Response("Proceso fallido","No se ha podido guardar la Vacuna",null,false);                
             }
         }
 
